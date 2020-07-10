@@ -30,9 +30,6 @@ const useStyles = makeStyles((theme) => ({
     marginBottom: theme.spacing(8),
     display: "flex",
   },
-  copyright: {
-    marginBottom: "-10rem",
-  },
   iconsWrapper: {
     height: 120,
   },
@@ -109,7 +106,7 @@ export default function AppFooter() {
               <Grid item>
                 <Copyright />
               </Grid>
-              <Grid item className={classes.copyright}>
+              {/* <Grid item className={classes.copyright}>
                 <Typography variant="caption">
                   {"Icons made by "}
                   <Link
@@ -122,7 +119,7 @@ export default function AppFooter() {
                     Freepik
                   </Link>
                 </Typography>
-              </Grid>
+              </Grid> */}
             </Grid>
           </Grid>
         </Grid>
